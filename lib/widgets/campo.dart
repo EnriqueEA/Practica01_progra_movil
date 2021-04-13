@@ -10,7 +10,7 @@ class Campo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: 12),
+      margin: EdgeInsets.symmetric(vertical: 10),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -18,7 +18,7 @@ class Campo extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 23, vertical: 0),
               child: Texto(this.label)),
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 23, vertical: 5),
+            margin: EdgeInsets.symmetric(horizontal: 23, vertical: 4),
             padding: EdgeInsets.symmetric(horizontal: 10),
             decoration: BoxDecoration(
               color: Colors.white,

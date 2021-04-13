@@ -12,7 +12,7 @@ class MethodAccess extends StatelessWidget {
         'assets/$name',
         height: 26,
       ),
-      padding: EdgeInsets.symmetric(horizontal: 70, vertical: 10),
+      padding: EdgeInsets.symmetric(horizontal: 70, vertical: 8),
       decoration: BoxDecoration(
         border: Border.all(color: Colors.grey[200], width: 1.5),
         borderRadius: BorderRadius.circular(10),
